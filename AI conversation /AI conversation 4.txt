@@ -1,0 +1,14 @@
+PROMPT 1:
+Help me manually implement a task manager using Week 4–6 techniques only (lists, loops, validation). Include doctests where possible.
+
+AI RESPONSE:
+
+Used display_menu(), get_user_choice() and main() with loops and list operations
+
+Applied simple input validation for menu choices
+
+Sample doctests were skipped per Week 9 style
+
+COURSE CONSTRAINT CHECK:
+Stripped out any try/except logic that wasn't simple. Stuck to Week 4-6 concepts: list .append(), for loops, basic input checking. Didn’t use OOP, file I/O, or external libraries.
+
