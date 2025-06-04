@@ -1,0 +1,15 @@
+PROMPT 1:
+Can you help me compare my updated function with the ideal solution? Mention similarities, differences, course concept links, and improvement ideas using our course terms.
+
+AI RESPONSE:
+
+Similarities: Both validate inputs, give clear feedback
+
+Differences: The ideal uses real API + precise errors; mine uses basic mock data
+
+Course connection: Demonstrates Week 8 error-handling mindset
+
+Improvement idea: Add string format checks, consistent error messages (per Chapter 6, Lab 8)
+
+COURSE CONSTRAINT CHECK:
+The AI suggested checking for alphabetic characters—I'll apply that using only basic string methods. Avoided real API usage and restricted feedback to Week 8 logic.
