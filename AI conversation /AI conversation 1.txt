@@ -1,0 +1,26 @@
+My prompt:
+“I need to create a command-line task manager program in Python for my introductory programming course. It should let users add tasks, view all tasks, and remove a task by number. Use only beginner concepts from Weeks 2–10. Avoid advanced features. Please write structured pseudocode based on our course planning method.”
+
+AI response:
+The AI generated modular pseudocode that used functions for add_task, list_tasks, and remove_task, with a while True loop for the menu. Tasks were stored in a list, and basic if/else logic was used to validate actions.
+
+Course constraint applied:
+I ensured the pseudocode followed structured problem decomposition from Week 4 (Functions), list storage from Week 2, and repetition using Week 5 (Loops).
+
+My prompt (First Refinement):
+“Please refine the pseudocode to validate menu input and task number input during removal. Also handle the case where the task list is empty. Use only try/except and input checking methods from Week 6.”
+
+AI response:
+The AI added a get_menu_choice() function with try/except to handle invalid user input. It also improved remove_task() with range checking and empty-list handling.
+
+Course constraint applied:
+I restricted the AI to use only the try/except error handling and basic integer validation introduced in Week 6: Files and User Input Validation.
+
+My prompt (Second Refinement):
+“Now extend the pseudocode to include persistent file storage. Tasks should be loaded from a file at the start, and saved each time a task is added or removed. Use only beginner file I/O from our course.”
+
+AI response:
+The AI provided load_tasks() and save_tasks() functions using open(), .readlines(), .write(), and try/except. These functions were integrated into the main loop to update the task file on changes.
+
+Course constraint applied:
+I constrained the AI to use only file reading/writing as taught in Week 6, with no advanced file techniques like context managers, JSON, or exception chaining.
